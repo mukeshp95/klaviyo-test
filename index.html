@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klaviyo Test Page</title>
+    <style>
+        body {
+            background-color: #0f0f0f;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            animation: neon 1.5s ease-in-out infinite alternate;
+        }
+
+        p {
+            font-size: 1.5em;
+            animation: neon 1.5s ease-in-out infinite alternate;
+            animation-delay: 0.75s;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #ff00ff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            animation: neon 1.5s ease-in-out infinite alternate;
+            animation-delay: 1.5s;
+        }
+
+        @keyframes neon {
+            from {
+                text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 15px #ff00ff, 0 0 20px #ff00ff;
+            }
+            to {
+                text-shadow: 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Klaviyo Test Page</h1>
+        <p>Explore Klaviyo Features with Style</p>
+        <a href="#" class="button">Get Started</a>
+    </div>
+<script
+type="text/javascript"
+src="//static.klaviyo.com/onsite/js/klaviyo.js?company_id=RmPB4b"
+></script>
+</body>
+</html>
